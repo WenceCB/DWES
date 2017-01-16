@@ -1,0 +1,37 @@
+/* Estilo definido para la clase formulario */
+.formulario{
+    border:1px solid;
+    width: auto;
+    margin:0 auto;
+}
+/* Estilo definido para la clase formulario y los elementos h1 y h2*/
+.formulario, h1,h2{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Estilo característico de los elementos h2 */
+
+h2{
+    color: red;
+}
+
+/* Estilo para definir nuestra tabla y columnas */
+table, td {
+    border: 1px solid lightgray;
+    text-align: center;
+}
+/* Estilo para los elementos tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* Estilo para los elementos td */
+td {
+    padding: 15px;
+}
+
+
+
