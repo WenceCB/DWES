@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0px;
+
+}
+body{
+    font-family:"Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+    font-size:14px;
+    background:#f4f4f4;
+    color:#333;
+    text-shadow:1px 1px 1px #fff;
+    overflow-y:scroll;
+}
+
+.contenedor{
+    width:960px;
+    margin:20px auto;
+
+
+
+}
+.formulario-info{
+
+    padding-top: 10px;
+    margin:0 auto;
+    width:350px;
+    font-size:16px;
+    text-align: center;
+
+}
+
+
+/* Form Style */
+.formulario{
+    background:#fff;
+    border:1px solid #ddd;
+    margin:0 auto;
+    width:350px;
+    font-size:16px;
+
+}
+.formulario h3{
+    padding:20px 30px 20px 30px;
+    background-color:#444;
+    color:#fff;
+    font-size:25px;
+    border-bottom:1px solid #ddd;
+    text-align: center;
+}
+.formulario label{
+    display:block;
+    padding:10px 30px 0px 30px;
+    margin:10px 0px 0px 0px;
+}
+.formulario input[type="text"]{
+    border: solid 1px #E5E5E5;
+    background: #FFFFFF;
+    margin: 5px 30px 0px 30px;
+    padding: 9px;
+    display:block;
+    font-size:16px;
+    width:76%;
+}
+.formulario input[type="submit"] {
+    background: #e3e3e3;
+    border: 1px solid #ccc;
+    color: #333;
+    font-family: "Trebuchet MS", "Myriad Pro", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 0 9px;
+    text-align: center;
+    width: 150px;
+    cursor:pointer;
+    float:right;
+    margin:30px 20px 20px 10px;
+
+}
+.formulario input[type="submit"]:hover {
+    background: #d9d9d9;
+}
+.inferior {
+    padding-top: 4%;
+
+
+}
+.check {
+    font-size: 12px;
+    padding-bottom: 4%;
+
+}
